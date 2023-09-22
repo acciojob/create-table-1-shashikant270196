@@ -1,9 +1,6 @@
 
 function insert_Row() {
-	document.createElement()
-	
-	
-  
-  
-  
+	const tr = document.CreateElement("tr");
+	tr.innerHTML=`<td>${new cell}</td>`;
+	sampleTable.appendchild(tr); 
 }
